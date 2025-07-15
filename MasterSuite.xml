@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="generic.AllureListeners"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestClass.LoginTest"/>
+      
+
+        <class name="TestClass.LatestCasesForHighcourt"/>
+         <class name="TestClass.LatestCasesForSupremeCourt"/>
+          <class name="TestClass.LatestcasesofTribunalcourt"/>
+                            
+                              <class name="TestClass.Centralactlisttest"/>
+                                <class name="TestClass.LatestLegalTabsverificationstest"/>
+                           <class name="TestClass.StateActList"/>
+                           
+                            
+          
+            
+            
+                          
+                           
+                          
+                          
+                          
+                   
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
