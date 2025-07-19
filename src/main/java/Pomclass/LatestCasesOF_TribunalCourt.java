@@ -43,6 +43,7 @@ public class LatestCasesOF_TribunalCourt extends BasePage1 {
                List<String> brokenUrls = new ArrayList<>();
        	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
                WebElement filter = driver.findElement(By.xpath("//*[@id='date_filter']"));
+
                new Select(filter).selectByVisibleText("7 Days");
                Thread.sleep(2000);
               WebElement totalcasecount = driver.findElement(By.xpath("//*[@id=\"court3\"]/small"));

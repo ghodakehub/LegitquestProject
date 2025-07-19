@@ -12,7 +12,7 @@ import io.qameta.allure.Description;
 public class iDrafbuttonBookmarks  extends NewBaseTest{
 	
 	
-	@Test()
+	@Test
 	public void VerifyHeadersOptions() throws InterruptedException, IOException, MessagingException
 	
 	{

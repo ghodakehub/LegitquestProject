@@ -82,12 +82,13 @@
                             <class name="TestClass.VerifydateOfLatestLegalNews"/>
                            
                             
-                           
-          
-            
-            
                           
+                            
+                              <class name="TestClass.Centralactlisttest"/>
+                                <class name="TestClass.LatestLegalTabsverificationstest"/>
+                           <class name="TestClass.StateActList"/>
                            
+                            
                           
                           
                           

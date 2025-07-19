@@ -26,8 +26,6 @@ import io.qameta.allure.Feature;
 @Feature("Verify socail media links")
 public class ThridPageSocailmedialinks extends NewBaseTest{
 
-
-	
 	@Test
 	@Description("- Check functionality of all social media share icons (WhatsApp, Facebook, Twitter, LinkedIn, Email) present on page and Confirm that clicking each icon opens in a new tab or window")
 	public void verifythirdpagesbuttons() throws InterruptedException, IOException

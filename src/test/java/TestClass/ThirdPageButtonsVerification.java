@@ -24,8 +24,6 @@ import io.qameta.allure.Feature;
 @Feature("Verify ThirdPageButtons")
 public class ThirdPageButtonsVerification extends NewBaseTest{
 
-
-	
 	@Test
 	@Description(
 		    "Validate all key components of the Judgment page:\n" +

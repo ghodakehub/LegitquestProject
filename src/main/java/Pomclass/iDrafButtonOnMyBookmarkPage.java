@@ -45,8 +45,8 @@ public class iDrafButtonOnMyBookmarkPage extends BasePage1 {
 			String screenshot=  UtilityClass.Capaturescreenshot(driver,"error on heradrs");
     		String testUrl = driver.getCurrentUrl();  
     		 ForMultiplemailReceipent.sendEmail(
-               	   driver, new String[]{"ghodake6896@gmail.com","mamta.Kashyap@legitquest.com"},
-               	    "LR - iDrafBookMarks_Button ",
+               	   driver, new String[]{"ghodake6896@gmail.com"},
+               	    "LR - iDrafBookMarks ",
                	    "Please check iDrafBookMark button issue coming While click on it , please find the attached screenshot for details." ,
                	 screenshot , testUrl
                	   

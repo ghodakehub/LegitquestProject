@@ -19,6 +19,7 @@ import io.qameta.allure.Feature;
 @Feature("Verify iDraf Options")
 public class iDrafFeaturesTest extends NewBaseTest{
 	
+
 	@Test
 	  @Description("Verify that the 'Issue',Fact, Reasoning , Arguement of Petitioner ,Arguement of Respondent and Decision section in IDraf is displayed and highlight the content correctly")
 	public void Actlistverify() throws InterruptedException, IOException

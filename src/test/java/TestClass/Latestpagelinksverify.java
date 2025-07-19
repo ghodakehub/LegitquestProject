@@ -22,7 +22,8 @@ import io.qameta.allure.Feature;
 @Feature("Verify Broken link of cases")
 public class Latestpagelinksverify extends NewBaseTest{
 	
-	@Test()
+
+	@Test
 	@Description("Verify 'LatestLegal News'cases check broken links")
 	public void verifyLatestLegalNewsbrokenlinks() throws InterruptedException, IOException, MessagingException
 	

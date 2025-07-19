@@ -18,7 +18,7 @@ import io.qameta.allure.Feature;
 @Epic("Profile - My Note")
 @Feature("Verify Trashnote Option")
 public class Trashfeatureofmynote extends NewBaseTest {
-	
+
 	@Test
 	@Description("This test verify that trash options and can we trash the added note and also delete from trash")
 	public void verifynewnote() throws InterruptedException, IOException

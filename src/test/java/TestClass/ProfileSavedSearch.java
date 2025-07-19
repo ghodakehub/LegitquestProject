@@ -19,8 +19,8 @@ import generic.NewBaseTest;
 
 public class ProfileSavedSearch  extends NewBaseTest{
 
-	
 	@Test
+
 	public void VerifyPaginations() throws InterruptedException, IOException, MessagingException
 	
 	{

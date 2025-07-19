@@ -19,6 +19,7 @@ import io.qameta.allure.Feature;
 @Epic("Profile - My Note")
 @Feature("Verify Nootebook Option")
 public class NewNotemynote extends NewBaseTest {
+
 	@Test
 	@Description(
 		    "Verify 'Nootebook' functionality under 'My note':\n" +

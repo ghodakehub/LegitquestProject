@@ -15,8 +15,9 @@ import generic.RetryAnalyzer;
 
 public class PaginationsVerifyBybench extends NewBaseTest{
 
-	
+
 	@Test
+
 	public void VerifyPaginations() throws InterruptedException, IOException
 	
 	{

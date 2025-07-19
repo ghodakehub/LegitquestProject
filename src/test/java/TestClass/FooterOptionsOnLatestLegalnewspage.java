@@ -16,7 +16,9 @@ import io.qameta.allure.Feature;
 @Feature("Verify FooterOptions on LatestLegalNews")
 public class FooterOptionsOnLatestLegalnewspage extends NewBaseTest{
 	
+
 	@Test
+
 	public void verifyFooterOptions() throws Exception
 	
 	{

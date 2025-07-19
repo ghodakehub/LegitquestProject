@@ -19,9 +19,8 @@ import io.qameta.allure.Feature;
 @Feature("Verify My Note Option")
 public class MoveTonotebook extends NewBaseTest{
 
-
-	
 	@Test
+
 	@Description(
 		    "Verify all note-level actions under the 'All Notes' section:\n" +
 		    "- Rename: Edit the note title and confirm it gets updated.\n" +

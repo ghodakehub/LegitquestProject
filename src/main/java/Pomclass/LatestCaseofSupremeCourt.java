@@ -37,6 +37,7 @@ public class LatestCaseofSupremeCourt extends BasePage1 {
 	    
 	    Select dateFilter = new Select(datefilterdropdown);
 	    dateFilter.selectByValue("7");
+	    dateFilter.selectByValue("30");
 	    Thread.sleep(2000);
 
 	   

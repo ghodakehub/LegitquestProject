@@ -21,6 +21,7 @@ import io.qameta.allure.Feature;
 @Epic("Search Bar")
 @Feature("Verify all search options")
 public class SearchBarfeature extends NewBaseTest{
+
 	@Test
 	@Description("Verifies that all search types (free text, citation, judge name, party name, act name) return results.")
 	public void verifySearchBarfunction() throws InterruptedException, IOException {

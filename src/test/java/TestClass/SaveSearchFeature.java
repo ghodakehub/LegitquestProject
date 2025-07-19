@@ -19,9 +19,9 @@ import io.qameta.allure.Feature;
 @Feature("Verify save search functionality button")
 public class SaveSearchFeature extends NewBaseTest {
 	
-	
 
 	@Test
+
 	public void verifySearchSaveFunciton() throws InterruptedException, IOException
 	
 	{

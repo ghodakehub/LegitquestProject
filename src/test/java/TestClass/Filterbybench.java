@@ -26,7 +26,7 @@ public class Filterbybench extends NewBaseTest {
 
 	
 	
-	@Test()
+   @Test
 	@Description("Verify the functionality of filter options on the search results page using By Bench,By Year, and By Decision and verifies the results")
 	public void verifyfilter() throws InterruptedException, IOException
 	

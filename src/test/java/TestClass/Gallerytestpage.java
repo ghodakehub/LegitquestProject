@@ -22,6 +22,7 @@ import io.qameta.allure.Feature;
 @Feature("Verify GalleryPage")
 public class Gallerytestpage extends NewBaseTest{
 	
+
 	@Test
 	@Description("Verify that the Gallery page is accessible from the website footer and loads all expected images/content.")
 	public void Actlistverify() throws InterruptedException, IOException

@@ -25,6 +25,7 @@ import io.qameta.allure.Feature;
 public class JudgmentPrintPdfFeature extends NewBaseTest{
 
 	
+
 	@Test
 	@Description(
 		    "Validate the 'Print Judgment' functionality ensure that download the pdf successfully with selecting one cloumn and two cloumn options"

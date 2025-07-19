@@ -21,7 +21,8 @@ public class HambugerTest extends NewBaseTest{
 	
 
 	
-	@Test()
+
+	@Test
 	@Description("Verify that the HamBurgerMenu options is display and working properly")
 	public void HamBugerMenu() throws InterruptedException, IOException
 	

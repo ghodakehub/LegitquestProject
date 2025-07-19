@@ -20,6 +20,7 @@ import io.qameta.allure.Feature;
 public class JudgementCitedinfeatures extends NewBaseTest{
 	
 	
+
 	@Test
 	@Description(
 		    "Validate all tabs on the Judgment page and check futureRefernce ,CitedIn, AdvocateDetails and HeadNotes after click on that display the content")

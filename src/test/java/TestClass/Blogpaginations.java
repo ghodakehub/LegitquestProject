@@ -26,8 +26,9 @@ import io.qameta.allure.Feature;
 public class Blogpaginations extends NewBaseTest{
 	
 
-	
-	@Test()
+	@Test
+
+
 	@Description("Check all blog links and check broken images or 404 error")
 	public void verifyBlogPages() throws InterruptedException, IOException
 	

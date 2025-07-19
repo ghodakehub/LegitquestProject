@@ -23,7 +23,8 @@ import io.qameta.allure.Feature;
 public class JudgementShareFeature extends NewBaseTest {
 
 	
-	@Test()
+
+	@Test
 	@Description(
 		    "Ensure that the 'Email' share icon on the judgment page functions correctly:\n" +
 		    "- This confirms that users can easily share the judgment via email."

@@ -25,7 +25,8 @@ import io.qameta.allure.Feature;
 public class LatestCasesForTribunalCourt extends NewBaseTest{
 	
 	
-	@Test()
+
+	@Test
 	@Description(
 		    "Validate the Tribunal Court ON latest cases page:\n" +
 		    "- Apply the filter for subcourts :\n"+

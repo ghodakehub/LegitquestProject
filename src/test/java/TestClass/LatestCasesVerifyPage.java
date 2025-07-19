@@ -22,6 +22,7 @@ import io.qameta.allure.Description;
 public class LatestCasesVerifyPage extends NewBaseTest{
 	
 	
+
 	@Test
 	@Description(
 		   "Verifying each tabs provide resutls and filter is working")

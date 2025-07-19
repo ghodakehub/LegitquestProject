@@ -25,8 +25,6 @@ import io.qameta.allure.Feature;
 public class CheckAllfooterOptions extends NewBaseTest {
 
 
-	
-	
 	 @Test
 	 @Description("Verify all footer options like Our Team,Gallery,Contact Us,Careers,Terms & Conditions,We value your Privacy, Newsletter")
 	 		

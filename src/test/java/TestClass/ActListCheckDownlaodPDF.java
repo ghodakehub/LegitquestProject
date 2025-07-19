@@ -20,11 +20,13 @@ import generic.NewBaseTest;
 import io.qameta.allure.Allure;
 
 
+
 public class ActListCheckDownlaodPDF extends NewBaseTest{
 	
 
 	
 	
+
 	  @Test
 	    public void verifyFirstDownloadForEachType() throws Exception {
 		 

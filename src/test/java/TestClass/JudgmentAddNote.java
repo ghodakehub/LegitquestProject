@@ -24,6 +24,7 @@ public class JudgmentAddNote extends NewBaseTest {
 
 
 	
+
 	@Test
 	@Description(
 		    "Validate the 'Add Note' functionality on the judgment page:\n" +

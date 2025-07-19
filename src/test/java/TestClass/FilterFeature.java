@@ -19,9 +19,10 @@ import io.qameta.allure.Feature;
 @Feature("Verify SearchFilter By Courts")
 public class FilterFeature extends NewBaseTest{
 
-	
-	
+
 	@Test
+
+
 	@Description("Verify the functionality of filter options on the search results page using By courts options Supremecourt ,highcourt ,Tribunal court and verifies the results")
 	public void verifyfilterbycourts() throws InterruptedException, IOException
 	

@@ -23,6 +23,7 @@ import io.qameta.allure.Feature;
 @Feature("Verify Tabs")
 public class LatestLegalTabsverificationstest extends NewBaseTest {
 	
+
 	  @Test
 	  @Description("Validate 'Latest Cases' across all court tabs (Supreme Court, High Court, Tribunal Court")
 			    

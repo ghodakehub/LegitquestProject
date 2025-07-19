@@ -19,9 +19,9 @@ import io.qameta.allure.Feature;
 @Feature("Verify profile page")
 public class ProfileFeature extends NewBaseTest{
 
-	
 
 	@Test
+
 	@Description(
 		    "Verify the Profile page loads correctly and displays:\n" +
 		    "- User's full name, mobile number, and email ID\n" +

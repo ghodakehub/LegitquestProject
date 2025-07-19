@@ -23,6 +23,7 @@ import io.qameta.allure.Feature;
 public class NotebookActionsfeature extends NewBaseTest{
 	
 	
+
 	@Test
 	@Description(
 		    "Verify all nootbook level actions under the 'My Note':\n" +

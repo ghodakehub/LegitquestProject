@@ -23,7 +23,9 @@ import io.qameta.allure.Feature;
 @Feature("Verify Notebook Option")
 public class Notebookfind extends NewBaseTest{
 	
+
 	@Test
+
 	@Description(
 		    "Verify all notebook level actions under the 'My Note':\n" +
 		    "- add Note: add NewNote in Added notebook and verify it's listed there."

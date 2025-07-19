@@ -19,7 +19,6 @@ import io.qameta.allure.Feature;
 @Epic("Profile - My Note")
 @Feature("Verify Nootebook Option")
 public class sharednotebookfeature extends NewBaseTest{
-	
 
 	@Test
 	@Description(

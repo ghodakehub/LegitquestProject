@@ -21,8 +21,6 @@ import io.qameta.allure.Feature;
 @Feature("Verify OurTeam")
 public class ourteamtest extends NewBaseTest {
 
-
-	
 	@Test
 	@Description("Verify OurTeam and check image and content display properly")
 	public void Actlistverify() throws InterruptedException, IOException

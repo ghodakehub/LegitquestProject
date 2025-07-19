@@ -19,7 +19,9 @@ import io.qameta.allure.Feature;
 @Feature("Verify Notebook Option")
 public class NoteShare extends NewBaseTest{
 	
+
 	@Test
+
 	@Description("Verify sharedNotebook options under the 'My Note'Ensure that can user share notebook")
 		    
 	public void verifynewnote() throws InterruptedException, IOException

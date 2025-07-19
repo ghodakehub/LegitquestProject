@@ -20,7 +20,8 @@ import io.qameta.allure.Feature;
 public class Headersoptionsfeatures extends NewBaseTest{
 	
 	
-	@Test()
+
+	@Test
 	@Description("Verify that the 'Company' and 'Product''Latest case','Profile' dropdown options in the header are displayed correctly upon clicking.")
 	public void VerifyHeadersOptions() throws InterruptedException, IOException
 	

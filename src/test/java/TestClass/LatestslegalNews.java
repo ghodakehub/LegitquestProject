@@ -22,7 +22,8 @@ public class LatestslegalNews extends NewBaseTest {
 
 
 	
-	@Test()
+
+	@Test
 	public void verifyLatestLegalNews() throws InterruptedException, IOException
 	
 	{

@@ -21,7 +21,7 @@ import io.qameta.allure.Feature;
 @Epic("FooterOptions")
 @Feature("Verify socailMedia Options")
 public class socialmediallinksoffooter extends NewBaseTest {
-	
+
 	@Test
 	@Description(
 		    "verifies that social media links (Facebook, Twitter, Instagram and youTube) are displayed correctly.") 

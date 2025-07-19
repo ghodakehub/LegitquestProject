@@ -20,8 +20,9 @@ import io.qameta.allure.Feature;
 @Epic("Profile")
 @Feature("Verify profile page")
 public class Profileactionsfunction extends NewBaseTest{
-	
+
 	@Test
+
 	@Description(
 		    "Verify the Profile page loads correctly and displays and  Search history and verify options like rename , share button ,delete, date")
 		    		 

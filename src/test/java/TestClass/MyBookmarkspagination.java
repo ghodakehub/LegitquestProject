@@ -21,7 +21,9 @@ import io.qameta.allure.Feature;
 public class MyBookmarkspagination extends NewBaseTest {
 	
 	
+
 	@Test
+
 	public void verifyMyBookmarkspaginations() throws InterruptedException, IOException
 	
 	{

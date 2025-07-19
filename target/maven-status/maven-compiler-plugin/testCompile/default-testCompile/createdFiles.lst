@@ -3,17 +3,27 @@ TestClass\LatestCasesForTribunalCourt.class
 TestClass\NotebookActionsfeature.class
 TestClass\SaveSearchFeature.class
 TestClass\Notebookfind.class
+<<<<<<< HEAD
 TestClass\ProfileSavedSearch.class
+=======
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 TestClass\ThridPageSocailmedialinks.class
 TestClass\ProfileFeature.class
 TestClass\NewNotemynote.class
 TestClass\SearchBarfeature.class
 TestClass\socialmediallinksoffooter.class
+<<<<<<< HEAD
 TestClass\CentralDownloadPdf.class
 TestClass\LoginByCorporate.class
 TestClass\LatestslegalNews.class
 TestClass\LoginTest.class
 TestClass\LatestCasesTestpage.class
+=======
+TestClass\LoginByCorporate.class
+TestClass\LatestslegalNews.class
+TestClass\LoginTest.class
+TestClass\ActListPdfDwn.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 TestClass\Filterbybench.class
 TestClass\Headersoptionsfeatures.class
 TestClass\ourteamtest.class
@@ -21,16 +31,31 @@ TestClass\Mynewnotefunctionality.class
 TestClass\FilterResult.class
 TestClass\LatestcasesofTribunalcourt.class
 TestClass\JudgmentAddNote.class
+<<<<<<< HEAD
 TestClass\HambugerTest.class
 TestClass\iDrafbuttonBookmarks.class
 TestClass\FilterFeature.class
 TestClass\MyBookmarkspagination.class
+=======
+TestClass\NewActListTest.class
+TestClass\HambugerTest.class
+TestClass\FilterFeature.class
+TestClass\MyBookmarkspagination.class
+TestClass\NewActlist_AllLinkstest.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 TestClass\LatestCasesForSupremeCourt.class
 TestClass\SavedSearchfunctionality.class
 TestClass\sharednotebookfeature.class
 TestClass\Blogpaginations.class
 TestClass\JudgmentPrintPdfFeature.class
+<<<<<<< HEAD
 TestClass\CheckAllfooterOptions.class
+=======
+TestClass\ActListCentralTimeline.class
+TestClass\CheckAllfooterOptions.class
+TestClass\ActlistForCentrallist.class
+TestClass\ActListPaginationForCentral.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 TestClass\Centralactlisttest.class
 TestClass\secondaryMaterials.class
 TestClass\JudgementShareFeature.class
@@ -40,19 +65,33 @@ TestClass\FirstPagebrokenLinksVerify.class
 TestClass\MoveTonotebook.class
 TestClass\PaginationsVerifyBybench.class
 TestClass\selectlanguagefeature.class
+<<<<<<< HEAD
 TestClass\FooterOptionsOnLatestLegalnewspage.class
 TestClass\Forgetpass_feature.class
+=======
+TestClass\Forgetpass_feature.class
+TestClass\ActListAmendmentTimeline.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 TestClass\Gallerytestpage.class
 TestClass\SearchwithResult.class
 TestClass\LatestLegalTabsverificationstest.class
 TestClass\StateActList.class
 TestClass\Headerslinksfeature.class
+<<<<<<< HEAD
 TestClass\ActListCheckDownlaodPDF.class
 TestClass\ContactFooterFeature.class
 TestClass\NoteShare.class
 TestClass\ThirdPageButtonsVerification.class
 TestClass\Trashfeatureofmynote.class
 TestClass\LatestCasesVerifyPage.class
+=======
+TestClass\ContactFooterFeature.class
+TestClass\NoteShare.class
+TestClass\ActListfeatureForState.class
+TestClass\ThirdPageButtonsVerification.class
+TestClass\Trashfeatureofmynote.class
+TestClass\ActListFeatureStatePdf.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 TestClass\CheckBorkenImages.class
 TestClass\VerifydateOfLatestLegalNews.class
 TestClass\Latestpagelinksverify.class

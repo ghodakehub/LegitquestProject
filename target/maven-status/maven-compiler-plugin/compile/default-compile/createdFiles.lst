@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Pomclass\Filterwithbyyear.class
 generic\PaginationsUtility.class
 Pomclass\ActListDownlaodPdf.class
@@ -9,18 +10,55 @@ Pomclass\BasePage1.class
 Pomclass\VerifyProfile.class
 Pomclass\JudgmentPrintPdf.class
 Pomclass\ThirdPageSocialMedialLinks.class
+=======
+Pomclass\SaveSearchJugement.class
+Pomclass\Filterwithbyyear.class
+Pomclass\PDFdownloadStateActList.class
+generic\PaginationsUtility.class
+Pomclass\LatestcasesOfHighcourt.class
+generic\SwitchWindow.class
+Pomclass\NewActList.class
+Pomclass\HeaderOptions.class
+Pomclass\BasePage1.class
+generic\ConfigReader.class
+Pomclass\Trashofmynote.class
+Pomclass\VerifyProfile.class
+Pomclass\JudgmentPrintPdf.class
+Pomclass\NewActList_AllLinks.class
+generic\ExcelUtility$1.class
+Pomclass\NewActList$1.class
+Pomclass\LatestLegalNewsDateSortby.class
+Pomclass\LatestLegalNews.class
+Pomclass\ThirdPageSocialMedialLinks.class
+Pomclass\Profile.class
+generic\MailTestLisnerForMultipleRecepient.class
+generic\MyTestNGListener.class
+UtilityClass\UtilityClass.class
+Pomclass\ActListForStatePdf.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 Pomclass\OurTeampage.class
 Pomclass\BurgerMenu.class
 Pomclass\JudgementCitedinFuturereference.class
 Pomclass\SharedNotebook.class
+<<<<<<< HEAD
 Pomclass\PaginationbyBench.class
 UtilityClass\ActTypeProvider.class
 generic\ForMultiplemailReceipent.class
+=======
+Pomclass\ActListForState.class
+Pomclass\LatestCasesTribunal.class
+UtilityClass\Library.class
+Pomclass\PaginationbyBench.class
+UtilityClass\PdfDownlaodInProject.class
+generic\ForMultiplemailReceipent.class
+Pomclass\ActListCentralTimelineAct.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 Pomclass\LoginPageByCoperate.class
 Pomclass\NewNoteOFMynote.class
 Pomclass\Filter.class
 generic\EmailUtility$1.class
 Pomclass\Login.class
+<<<<<<< HEAD
 generic\CommonVerification.class
 Pomclass\judgmentshare.class
 Pomclass\GalleryPage.class
@@ -34,10 +72,41 @@ Pomclass\Savedsearchprofile.class
 Pomclass\JudgmentAddNotefunction.class
 Pomclass\Search.class
 generic\NewBaseTest.class
+=======
+Pomclass\Headerslinks.class
+Pomclass\MyNoteNewNote.class
+generic\CommonVerification.class
+Pomclass\judgmentshare.class
+Pomclass\PaginationAtmyBookmarks.class
+Pomclass\GalleryPage.class
+Pomclass\LatestCaseofSupremeCourt.class
+Pomclass\AllFooterOptions.class
+Pomclass\LatestCasesOF_TribunalCourt.class
+generic\EmailUtility.class
+Pomclass\Footersocialmedia.class
+Pomclass\iDrafFeatures.class
+Pomclass\BlogPaginations.class
+Pomclass\ActListPdfDownload.class
+Pomclass\ShareMynote.class
+Pomclass\Contact_Footer.class
+Pomclass\Savedsearchprofile.class
+Pomclass\LatestLegalPageBrokenLink2.class
+Pomclass\StateActListpage.class
+generic\UtilityMethods.class
+Pomclass\JudgmentAddNotefunction.class
+Pomclass\FilterWithinResult.class
+Pomclass\SelectLaunguage.class
+Pomclass\Search.class
+generic\NewBaseTest.class
+Pomclass\AllSearchBar.class
+Pomclass\SecondryMaterialFilter.class
+Pomclass\ActListPaginatinAndSearchText.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3
 Pomclass\MyBookmarks.class
 generic\ExcelUtility.class
 Pomclass\ProfileActionsfunctionality.class
 Pomclass\Third_PageButton.class
+<<<<<<< HEAD
 Pomclass\PaginationsforHighcourts.class
 Pomclass\SnapShot.class
 Pomclass\LatestCasesPage.class
@@ -93,3 +162,23 @@ Pomclass\CentralActList.class
 Pomclass\VerifyLatestCasespage.class
 generic\ConfingData_provider.class
 Pomclass\searchwithinresult.class
+=======
+Pomclass\Notebookofmynote.class
+Pomclass\PaginationsforHighcourts.class
+Pomclass\NotebookActions.class
+Pomclass\SnapShot.class
+Pomclass\LatestSupremeCourtCases.class
+Pomclass\FristPageBrokenLink.class
+generic\AllureListeners.class
+Pomclass\ActlistCentralVerifyTimelineAmendment.class
+Pomclass\Forgetpassword.class
+generic\ForMultiplemailReceipent$1.class
+Pomclass\CentralActList.class
+Pomclass\LatestNewsTabVerification.class
+Pomclass\MoveNoteTonotebook.class
+generic\ConfingData_provider.class
+Pomclass\searchwithinresult.class
+generic\Library.class
+Pomclass\ActListForCentral.class
+Pomclass\LatestCasesOF_Highcourts.class
+>>>>>>> 16def13c78b04f6dc22453a5e18f3005005b24e3

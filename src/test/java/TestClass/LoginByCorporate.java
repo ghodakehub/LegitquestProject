@@ -21,7 +21,8 @@ import io.qameta.allure.Feature;
 @Feature("Verify LoginByCorporate")
 public class LoginByCorporate extends NewBaseTest{
 	
-	@Test()
+
+	@Test
 	@Description(
 		    "Verify that a user can successfully log in using a valid Corporate ID:\n" +
 		    "- Enter a valid Corporate ID, username, and password.\n" +

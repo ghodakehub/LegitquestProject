@@ -17,9 +17,9 @@ import generic.RetryAnalyzer;
 
 public class SearchwithResult extends NewBaseTest{
 
-	
 
 	@Test
+
 	public void verifySearchrwithinResult() throws InterruptedException, IOException
 	
 	{
