@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="generic.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestClass.SearchBarfeature">
+        <methods>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="verifySearchBarfunction"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.SearchBarfeature -->
+      <class name="TestClass.socialmediallinksoffooter">
+        <methods>
+          <include name="verifysocailmedialinks"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.socialmediallinksoffooter -->
+      <class name="TestClass.JudgmentAddNote">
+        <methods>
+          <include name="verifyJudgmentAddnote"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.JudgmentAddNote -->
+      <class name="TestClass.ActListFeatureStatePdf">
+        <methods>
+          <include name="ActlistStatePdf"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.ActListFeatureStatePdf -->
+      <class name="TestClass.ActListAmendmentTimeline">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="Actlistverify"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.ActListAmendmentTimeline -->
+      <class name="TestClass.SavedSearchfunctionality">
+        <methods>
+          <include name="savedsearchprofile"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.SavedSearchfunctionality -->
+      <class name="TestClass.Trashfeatureofmynote">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifynewnote"/>
+        </methods>
+      </class> <!-- TestClass.Trashfeatureofmynote -->
+      <class name="TestClass.ActListCentralTimeline">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="Actlistverify"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.ActListCentralTimeline -->
+      <class name="TestClass.ActListfeatureForState">
+        <methods>
+          <include name="Actlistverifyforstate"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.ActListfeatureForState -->
+      <class name="TestClass.FilterFeature">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifyfilterbycourts"/>
+        </methods>
+      </class> <!-- TestClass.FilterFeature -->
+      <class name="TestClass.Mynewnotefunctionality">
+        <methods>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifynewnote"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.Mynewnotefunctionality -->
+      <class name="TestClass.PaginationsVerifyBybench">
+        <methods>
+          <include name="VerifyPaginations"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.PaginationsVerifyBybench -->
+      <class name="TestClass.Headersoptionsfeatures">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="VerifyHeadersOptions"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.Headersoptionsfeatures -->
+      <class name="TestClass.JudgementShareFeature">
+        <methods>
+          <include name="finish"/>
+          <include name="verifyJudgmentshare"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.JudgementShareFeature -->
+      <class name="TestClass.JudgementCitedinfeatures">
+        <methods>
+          <include name="FuturecitedinheadnotFunctionality"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.JudgementCitedinfeatures -->
+      <class name="TestClass.ActListPdfDwn">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="verifyActlistforCentralPdf"/>
+        </methods>
+      </class> <!-- TestClass.ActListPdfDwn -->
+      <class name="TestClass.LatestCasesForHighcourt">
+        <methods>
+          <include name="verifyLatestCasesofhighcourt"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.LatestCasesForHighcourt -->
+      <class name="TestClass.NewNotemynote">
+        <methods>
+          <include name="verifynewnote"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.NewNotemynote -->
+      <class name="TestClass.Notebookfind">
+        <methods>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="verifynewnote"/>
+        </methods>
+      </class> <!-- TestClass.Notebookfind -->
+      <class name="TestClass.NoteShare">
+        <methods>
+          <include name="verifynewnote"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.NoteShare -->
+      <class name="TestClass.FilterResult">
+        <methods>
+          <include name="verifysearchfilter"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.FilterResult -->
+      <class name="TestClass.ProfileFeature">
+        <methods>
+          <include name="VerifyProfileFeature"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.ProfileFeature -->
+      <class name="TestClass.MoveTonotebook">
+        <methods>
+          <include name="verifyMovetonotebook"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.MoveTonotebook -->
+      <class name="TestClass.ContactFooterFeature">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifycontactfooter"/>
+        </methods>
+      </class> <!-- TestClass.ContactFooterFeature -->
+      <class name="TestClass.HambugerTest">
+        <methods>
+          <include name="HamBugerMenu"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.HambugerTest -->
+      <class name="TestClass.selectlanguagefeature">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="verifylanguagefunctionality"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.selectlanguagefeature -->
+      <class name="TestClass.SearchFilterResult">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifySearchBarfunction"/>
+        </methods>
+      </class> <!-- TestClass.SearchFilterResult -->
+      <class name="TestClass.Blogpaginations">
+        <methods>
+          <include name="verifyBlogPages"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.Blogpaginations -->
+      <class name="TestClass.VerifydateOfLatestLegalNews">
+        <methods>
+          <include name="verifySearchBarfunction"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.VerifydateOfLatestLegalNews -->
+      <class name="TestClass.NotebookActionsfeature">
+        <methods>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="verifynewnote"/>
+        </methods>
+      </class> <!-- TestClass.NotebookActionsfeature -->
+      <class name="TestClass.Profileactionsfunction">
+        <methods>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="profileactionsfeatures"/>
+        </methods>
+      </class> <!-- TestClass.Profileactionsfunction -->
+      <class name="TestClass.LoginTest">
+        <methods>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="verifyLoginforIndividual"/>
+        </methods>
+      </class> <!-- TestClass.LoginTest -->
+      <class name="TestClass.LatestCasesForSupremeCourt">
+        <methods>
+          <include name="verifyLatestCases"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.LatestCasesForSupremeCourt -->
+      <class name="TestClass.SearchwithResult">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifySearchrwithinResult"/>
+        </methods>
+      </class> <!-- TestClass.SearchwithResult -->
+      <class name="TestClass.ActlistForCentrallist">
+        <methods>
+          <include name="verifyActListforCentral"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.ActlistForCentrallist -->
+      <class name="TestClass.ThirdPageButtonsVerification">
+        <methods>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifythirdpagesbuttons"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.ThirdPageButtonsVerification -->
+      <class name="TestClass.LatestslegalNews">
+        <methods>
+          <include name="verifyLatestLegalNews"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.LatestslegalNews -->
+      <class name="TestClass.Mybookmarkfunctionlity">
+        <methods>
+          <include name="verifybookmarks"/>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.Mybookmarkfunctionlity -->
+      <class name="TestClass.ProfileFuctionality">
+        <methods>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="verifyuserprofile"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.ProfileFuctionality -->
+      <class name="TestClass.PaginationBysuprmecourt">
+        <methods>
+          <include name="VerifyPaginationsSC"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.PaginationBysuprmecourt -->
+      <class name="TestClass.ActListPaginationForCentral">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifyActlistCentralPagination"/>
+        </methods>
+      </class> <!-- TestClass.ActListPaginationForCentral -->
+      <class name="TestClass.SaveSearchFeature">
+        <methods>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="verifySearchSaveFunciton"/>
+        </methods>
+      </class> <!-- TestClass.SaveSearchFeature -->
+      <class name="TestClass.secondaryMaterials">
+        <methods>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="verifysecondarymaterials"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.secondaryMaterials -->
+      <class name="TestClass.MyBookmarkspagination">
+        <methods>
+          <include name="finish"/>
+          <include name="verifyMyBookmarkspaginations"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.MyBookmarkspagination -->
+      <class name="TestClass.PaginationsverificationForHc">
+        <methods>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="VerifyPaginationsHC"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.PaginationsverificationForHc -->
+      <class name="TestClass.JudgmentPrintPdfFeature">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="finish"/>
+          <include name="verifyJudgmentshare"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.JudgmentPrintPdfFeature -->
+      <class name="TestClass.LatestCasesForTribunalCourt">
+        <methods>
+          <include name="verifyLatestCasesofTribunal"/>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.LatestCasesForTribunalCourt -->
+      <class name="TestClass.LoginByCorporate">
+        <methods>
+          <include name="verifyLoginpagebyCorporate"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.LoginByCorporate -->
+      <class name="TestClass.Latestpagelinksverify">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+          <include name="verifyLatestLegalNewsbrokenlinks"/>
+        </methods>
+      </class> <!-- TestClass.Latestpagelinksverify -->
+      <class name="TestClass.Headerslinksfeature">
+        <methods>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="VerifyHeadersLinks"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.Headerslinksfeature -->
+      <class name="TestClass.Filterbybench">
+        <methods>
+          <include name="finish"/>
+          <include name="launchbrowser"/>
+          <include name="verifyfilter"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestClass.Filterbybench -->
+      <class name="TestClass.FirstPagebrokenLinksVerify">
+        <methods>
+          <include name="verifybrokenlinks"/>
+          <include name="launchbrowser"/>
+          <include name="initialize"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- TestClass.FirstPagebrokenLinksVerify -->
+      <class name="TestClass.sharednotebookfeature">
+        <methods>
+          <include name="finish"/>
+          <include name="initialize"/>
+          <include name="launchbrowser"/>
+          <include name="verifysharedNotebook"/>
+        </methods>
+      </class> <!-- TestClass.sharednotebookfeature -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

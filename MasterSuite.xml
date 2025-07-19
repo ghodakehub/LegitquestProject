@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="generic.AllureListeners"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestClass.LoginTest"/>
+      
+
+        <class name="TestClass.LatestCasesForHighcourt"/>
+         <class name="TestClass.LatestCasesForSupremeCourt"/>
+          <class name="TestClass.LatestcasesofTribunalcourt"/>
+          <class name="TestClass.Centralactlisttest"/>
+          <class name="TestClass.LatestLegalTabsverificationstest"/>
+           <class name="TestClass.StateActList"/>
+                           
+            <class name="TestClass.ActListCheckDownlaodPDF"/>
+                           
+            <class name="TestClass.Blogpaginations"/>
+                           
+            <class name="TestClass.Centralactlisttest"/>
+                           
+             <class name="TestClass.CentralDownloadPdf"/>
+                           
+             <class name="TestClass.CheckAllfooterOptions"/>
+                           
+               <class name="TestClass.CheckBorkenImages"/>
+                           
+                 <class name="TestClass.ContactFooterFeature"/>
+                           
+                   <class name="TestClass.Filterbybench"/>
+                           
+                  <class name="TestClass.FilterFeature"/>
+                           
+                   <class name="TestClass.FirstPagebrokenLinksVerify"/>
+                   <class name="TestClass.FooterOptionsOnLatestLegalnewspage"/>
+                   <class name="TestClass.Gallerytestpage"/>
+                   <class name="TestClass.HambugerTest"/>
+                   <class name="TestClass.Headerslinksfeature"/>
+                   <class name="TestClass.Headersoptionsfeatures"/>
+                   <class name="TestClass.iDrafbuttonBookmarks"/>
+                   <class name="TestClass.iDrafFeaturesTest"/>
+                   <class name="TestClass.JudgementCitedinfeatures"/>
+                   <class name="TestClass.JudgementShareFeature"/>
+                   <class name="TestClass.JudgmentAddNote"/>
+                   <class name="TestClass.JudgmentPrintPdfFeature"/>
+                   <class name="TestClass.LatestCasesTestpage"/>
+                   <class name="TestClass.LatestCasesVerifyPage"/>
+                   <class name="TestClass.LatestLegalTabsverificationstest"/>
+                    <class name="TestClass.Latestpagelinksverify"/>
+                     <class name="TestClass.MoveTonotebook"/>
+                      <class name="TestClass.Mybookmarkfunctionlity"/>
+                       <class name="TestClass.MyBookmarkspagination"/>
+                        <class name="TestClass.Mynewnotefunctionality"/>
+                         <class name="TestClass.NewNotemynote"/>
+                          <class name="TestClass.NotebookActionsfeature"/>
+                           <class name="TestClass.Notebookfind"/>
+                            <class name="TestClass.NoteShare"/>
+                           <class name="TestClass.ourteamtest"/>
+                           <class name="TestClass.PaginationsVerifyBybench"/>
+                           <class name="TestClass.Profileactionsfunction"/>
+                           
+                            <class name="TestClass.ProfileFeature"/>
+                             <class name="TestClass.ProfileSavedSearch"/>
+                              <class name="TestClass.SavedSearchfunctionality"/>
+                               <class name="TestClass.SaveSearchFeature"/>
+                                <class name="TestClass.SearchBarfeature"/>
+                      <class name="TestClass.SearchwithResult"/>
+                           
+                             <class name="TestClass.secondaryMaterials"/>
+                            <class name="TestClass.selectlanguagefeature"/>
+                            <class name="TestClass.sharednotebookfeature"/>
+                            <class name="TestClass.socialmediallinksoffooter"/>
+                            <class name="TestClass.ThirdPageButtonsVerification"/>
+                           
+                            <class name="TestClass.ThridPageSocailmedialinks"/>
+                           
+                            <class name="TestClass.ThridPageSocailmedialinks"/>
+                           
+                            <class name="TestClass.VerifydateOfLatestLegalNews"/>
+                           
+                            
+                           
+          
+            
+            
+                          
+                           
+                          
+                          
+                          
+                   
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
